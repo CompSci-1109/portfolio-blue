@@ -1,6 +1,8 @@
 # portfolio-blue
 
-Hello. This repo of mine contains:
+Hello.
+
+This repo of mine contains:
 
 -notes/Writeups from my lab
 -scripts for automation and speeding up investigation
