@@ -1,21 +1,27 @@
 # portfolio-blue
 
+
 Hello.
 
-This repo of mine contains:
+I'm Chandana , a cybersecurity student 
+on my way to becoming a SOC Analyst.
 
--notes/Writeups from my lab
+This repo contains everything I'm building 
+and learning along the way:
 
--scripts for automation and speeding up investigation
+- 🔬 Home lab notes & attack/defence writeups
+- ⚙️ Bash & Python scripts for log analysis 
+  and investigation automation  
+- 📋 IR playbooks I've built from scratch
+- 📝 Commands I actually use during investigations
+- 🚀 Projects I've built hands-on
 
--IR playbooks
+Follow this repo to track my journey from 
+student -> SOC L1 -> Security Engineer.
 
--commands I frequently use for investigations 
 
--projects I made
-
-keep an eye on this to know about me. 
-
-yours,
+yours, 
 
 Chandana.
+
+May the Force be with you.
