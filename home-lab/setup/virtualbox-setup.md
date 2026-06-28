@@ -1,5 +1,4 @@
 
-Lab Setup:
 # 🏠 Home Lab — Kali + Lubuntu
 
 **Built:** May 2026  
@@ -8,7 +7,7 @@ in a safe isolated environment
 
 ---
 
-## 🖥️ Lab Setup
+## Lab Setup:
 
 | VM | Role | IP |
 |---|---|---|
@@ -21,7 +20,7 @@ in a safe isolated environment
 
 ---
 
-## ⚙️ Tools Used
+## Tools Used:
 - VirtualBox + Extension Pack
 - Kali Linux (pre-built VM image)
 - Lubuntu 26.04 (installed from ISO)
@@ -36,23 +35,23 @@ in a safe isolated environment
 
 ---
 
-## 🔥 Challenges Faced
+##  Challenges Faced
 
 ### 1. Forgot Lubuntu sudo password
 - **Problem:** Set password during install,
-  forgot it immediately 😭
+  forgot it immediately 
 - **Fix:** Booted into GRUB recovery mode
   (spammed Esc on boot → Advanced options 
   → recovery mode → root shell)
 - **Command used:** `passwd chandu`
-- **Lesson:** Write passwords down. Always. 😭
+- **Lesson:** Write passwords down, as soon as you set them. Always. 😭
 
 ### 2. Ping failing between VMs
 - **Problem:** Destination Host Unreachable
-- **Fix:** Disabled UFW firewall on Lubuntu
+- **Fix:** Disabled UFW firewall on Lubuntu, also kept both VMs on during ping
 - **Command:** `sudo ufw disable`
 - **Lesson:** Default firewall blocks ICMP
 
 ---
-
+### Final Status:
 ## ✅ Lab Confirmed Working
