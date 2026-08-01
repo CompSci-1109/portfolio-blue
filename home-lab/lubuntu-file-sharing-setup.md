@@ -11,22 +11,13 @@ To set up VirtualBox Guest Additions , so as to enable:
 
   # 🖥️ Lab Environment
 
-
-
 | Component           | Version                      |
-
 | ------------------- | ---------------------------- |
-
 | Host OS             | Windows 11                   |
-
 | VirtualBox          | 7.2.8                        |
-
 | Guest OS            | Lubuntu 26.04 LTS (Resolute) |
-
 | Desktop Environment | LXQt                         |
-
 | Graphics Controller | VMSVGA                       |
-
 | Video Memory        | 128 MB                       |
 
 
