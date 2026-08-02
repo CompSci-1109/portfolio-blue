@@ -21,6 +21,5 @@ To set up VirtualBox Guest Additions , so as to enable:
 | Video Memory        | 128 MB                       |
 
 
-
-# Phase 1 — System Verification
+# What I did:
 
