@@ -22,4 +22,4 @@ To set up VirtualBox Guest Additions , so as to enable:
 
 
 # What I did:
-
+1. Went to settings whilst VM was powered off. Checked if Shared Clipboard and Drag-n-Drop are enabled and set to Bidirectional.
