@@ -23,4 +23,20 @@ To set up VirtualBox Guest Additions , so as to enable:
 
 # What I did:
 1. Went to settings whilst VM was powered off. Checked if Shared Clipboard and Drag-n-Drop are enabled and set to Bidirectional.
-2. 
+2. Checked if Clipboard daemon is running.
+
+Command:
+
+`VBoxClient --clipboard`
+
+output: command vboxclient not found
+
+
+3. Checked if VirtualBox Guest Additions were installed.
+
+`lsmod | grep vboxguest`
+
+its output indicated that guest additions were installed on Lubuntu.
+
+4. 
+
