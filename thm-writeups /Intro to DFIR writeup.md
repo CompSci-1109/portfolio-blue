@@ -4,4 +4,6 @@ link to the room: https://tryhackme.com/room/introductoryroomdfirmodule
 
 DFIR: Digital Forensics & Incident Response
 
-Digital Forensics= Finding evidence of attacker activity and differentiating between false alarms and actual incidents.
+Digital Forensics= Finding evidence of attacker activity and differentiating between false alarms and actual incidents. cosists of Identification and scoping .
+
+
