@@ -6,8 +6,8 @@ DFIR: Digital Forensics & Incident Response
 
 # Digital Forensics = 
 
--Finding evidence of attacker activity and differentiating between false alarms and actual incidents. 
--Consists of Identification and scoping . (Identification : understanding the type of attack and /or threat , Scoping : Examining the impact of the attack and its attack radius)
+- Finding evidence of attacker activity and differentiating between false alarms and actual incidents. 
+- Consists of Identification and scoping . (Identification : understanding the type of attack and /or threat , Scoping : Examining the impact of the attack and its attack radius)
 
 # Incident Response =
 
