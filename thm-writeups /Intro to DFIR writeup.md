@@ -24,7 +24,22 @@ Containment of the attack, reducing damage/breach and Eradication of attacker an
 
 # The Hands-On:
 
-The room also gave a hands-on site in which 
+The room also gave a hands-on site in which :
+
+- I identified a malicious alert and collected evidence regarding the alert in the logs, ultimately arranging them chronologically.
+- the SIEM as given in the site alerted abt a malicious alert , so upon investigating within the SIEM it was found that an external IP (202.22.241.34) (this was the source IP) tried to login to a private network's IP (192.168.1.150) . The Syslog showed evidence of a potential SSH Bruteforce attack (initially in the SIEM SSH connection attempt by the source to the destination was observed.)
+- The compromised device then executed the malicious file downloaded from the source IP.
+
+#  Some DFIR Tools mentioned:
+
+Eric Zimmermann's too, redline, KAPE, Autopsy, Volatility, Velociraptor
+
+# The Incident Response Process:
+
+ Orgs such as NIST and  SANS have published processes & handbooks to guide on how to perform a successful Incident Response process. Both of them are almost similar. Thus the overall Incident Response Process can be summarized into the acronym PICERL.
+
+ 
+<img width="1530" height="118" alt="image" src="https://github.com/user-attachments/assets/d0aacb93-600f-4789-af23-9495f3b1dd38" />
 
 
 
