@@ -31,6 +31,13 @@ Command:
 
 output: command vboxclient not found
 
+To check version , I ran:
+
+`VBoxControl --version`
+
+
+output: since it has been many days since i ran it 😅 I forgot the exact output but there was a slight mismatch between the version of Lubuntu and the version of VirtualBox.
+
 
 3. Checked if VirtualBox Guest Additions were installed.
 
@@ -38,5 +45,7 @@ output: command vboxclient not found
 
 its output indicated that guest additions were installed on Lubuntu.
 
-4. 
+4.  I later ran :
 
+
+`sudo apt install virtualbox-guest-utils`
