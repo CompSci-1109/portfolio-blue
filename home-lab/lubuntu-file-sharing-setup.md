@@ -105,5 +105,35 @@ but if the LXQT desktop was started , why is the GUI not appearing?!!!
 xcb-cursor0 or libxcb-cursor0 is needed to load the Qt xcb platform plugin."
 
 
+Ah.
+
+now i ran
+
+`journalctl -b -p err`
+
+to check for any error messages.
+
+
+it showed
+
+
+`Vmufx`
+`Error:`
+
+`Running on an unsupported hypervisor. Tis conf is likely broken. Please switch to a supported graphic device to avoid problems`
+
+
+maybe the version conflict between lubuntu and the virtualbox version must have caused this , I assume
+
+
+so to reverse everything that occurred I deleted the recent installation:
+
+`sudo apt remove virtualbox-guest-x11`
+
+and `sudo reboot` to apply changes.
+
+
+the GUI returned after that.
+
 
 
