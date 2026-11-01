@@ -133,6 +133,11 @@ so to reverse everything that occurred I deleted the recent installation:
 and `sudo reboot` to apply changes.
 
 
+
+
+MORE IN PART 2
+
+
 the GUI returned after that.
 
 
